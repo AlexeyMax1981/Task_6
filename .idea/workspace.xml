@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c1ea1a34-a1bd-4d75-ac38-87b2cba24699" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/netology/sqr/SQRServiseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/sqr/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/sqr/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/sqr/SQRServise.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/sqr/SQRServise.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/sqr/SQRServiceTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,32 +50,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_directory_selection": "C:/Users/Алексей/IdeaProjects/sqr/src/test/java",
-    "last_opened_file_path": "C:/Users/Алексей/IdeaProjects/task5_2",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/Users/Алексей/IdeaProjects/sqr/src/test/java&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Алексей/IdeaProjects/Task5_2&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="mvn clean" />
       <command value="mvn test" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SQRServiceTest.outQuadro">
+  <component name="RunManager" selected="JUnit.SQRServiseTest.avSQR">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="sqr" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SQRServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.netology.sqr.Main" />
       <module name="sqr" />
       <extension name="coverage">
         <pattern>
@@ -78,9 +77,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ru.netology.sqr" />
-      <option name="MAIN_CLASS_NAME" value="ru.netology.sqr.SQRServiceTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -111,7 +107,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SQRServiceTest.outQuadro" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SQRServiseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="sqr" />
       <extension name="coverage">
         <pattern>
@@ -120,14 +116,29 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ru.netology.sqr" />
-      <option name="MAIN_CLASS_NAME" value="ru.netology.sqr.SQRServiceTest" />
-      <option name="METHOD_NAME" value="outQuadro" />
+      <option name="MAIN_CLASS_NAME" value="ru.netology.sqr.SQRServiseTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SQRServiseTest.avSQR" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sqr" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.netology.sqr.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.netology.sqr" />
+      <option name="MAIN_CLASS_NAME" value="ru.netology.sqr.SQRServiseTest" />
+      <option name="METHOD_NAME" value="avSQR(int,int,int)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SQRServiceTest.underQuadro" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SQRServiseTest.outSQR" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="sqr" />
       <extension name="coverage">
         <pattern>
@@ -136,8 +147,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ru.netology.sqr" />
-      <option name="MAIN_CLASS_NAME" value="ru.netology.sqr.SQRServiceTest" />
-      <option name="METHOD_NAME" value="underQuadro" />
+      <option name="MAIN_CLASS_NAME" value="ru.netology.sqr.SQRServiseTest" />
+      <option name="METHOD_NAME" value="outSQR" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -145,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SQRServiceTest.outQuadro" />
-        <item itemvalue="JUnit.SQRServiceTest" />
-        <item itemvalue="JUnit.SQRServiceTest.underQuadro" />
-        <item itemvalue="JUnit.SQRServiceTest.avQuadro (1)" />
+        <item itemvalue="JUnit.SQRServiseTest.avSQR" />
+        <item itemvalue="JUnit.SQRServiseTest" />
+        <item itemvalue="JUnit.SQRServiseTest.outSQR" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.SQRServiceTest.avQuadro (1)" />
       </list>
     </recent_temporary>
   </component>
