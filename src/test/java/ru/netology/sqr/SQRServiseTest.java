@@ -47,11 +47,11 @@ public class SQRServiseTest {
 //    "0,2,99",
 //    "0,10000,20000"})
     @CsvFileSource(files = "src/test/resources/sqr.csv")
-    public void avSQR(int expected, int a,int b) {
+    public void avSQR(int expected, int firstBorder, int secondBorder) {
         SQRServise service = new SQRServise();
 //        int expected = 3;
-        int actual = service.calcSQR(a,b);
-        Assertions.assertEquals(expected,actual);
+        int actual = service.calcSQR(firstBorder, secondBorder);
+        Assertions.assertEquals(expected, actual);
     }
 
 }
